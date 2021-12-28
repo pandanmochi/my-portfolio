@@ -6,7 +6,7 @@ export const projects = [
     description:
       'In my second term, I initially wrote this website in pure HTML and CSS. Now that I gathered a little more experience I migrated the code into React and Tailwind. The illustrations are drawn by me.',
     image: './portfolio.gif',
-    link: '#',
+    link: 'https://github.com/pandanmochi/my-portfolio',
   },
   {
     title: 'Sheets Fruit and Email Creator?',
