@@ -31,7 +31,7 @@ export default function Contact() {
     >
       <h1 className="text-5xl text-center">Contact me!</h1>
       <form
-        netlify
+        data-netlify="true"
         name="contact"
         onSubmit={handleSubmit}
         className="flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
