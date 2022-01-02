@@ -1,7 +1,7 @@
 import React from 'react'
 export default function Navbar() {
   return (
-    <header className="bg-dark-blue md:sticky top-0 z-10">
+    <header className="bg-dark-blue md:sticky top-0 z-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-col lg:flex-row">
         <div className="text-center text-4xl lg:text-5xl font-gravitas text-golden-yellow mb-4 lg:mb-0">
           TO UYEN NG.
@@ -24,6 +24,12 @@ export default function Navbar() {
             className="lg:mr-8 hover:text-golden-yellow transition duration-700"
           >
             Projects
+          </a>
+          <a
+            href="#contact"
+            className="lg:mr-8 hover:text-golden-yellow transition duration-700"
+          >
+            Contact
           </a>
         </nav>
       </div>

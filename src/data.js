@@ -4,7 +4,7 @@ export const projects = [
   {
     title: 'This Portfolio Website',
     description:
-      'In my second term, I initially wrote this website in pure HTML and CSS. Now that I gathered a little more experience I migrated the code into React and Tailwind. The illustrations are drawn by me.',
+      'In my second term, I initially wrote this website in pure HTML and CSS. Now that I gathered a little more experience, I migrated the code into React and Tailwind. The illustrations are drawn by me.',
     image: './portfolio.gif',
     link: 'https://github.com/pandanmochi/my-portfolio',
   },
@@ -15,6 +15,24 @@ export const projects = [
     image: './fruit.gif',
     link:
       'https://docs.google.com/spreadsheets/d/1HiIsMms1z8TxBNrjfrhnevxGh9FKsTXLPqMMvqacseA/edit?usp=sharing',
+  },
+]
+
+export const schoolProjects = [
+  {
+    title: 'MiniGoogle',
+    description:
+      'School Project: A little search engine for looking up xkcd comics. Written in Java, CSS, Pug. Group work with fellow student',
+    image: './minigoogle.gif',
+    link:
+      'https://gitfront.io/r/pandanmochi/7e411e9826dd584bd12461fac7a7bd97026fa3f5/minigoogle/',
+  },
+  {
+    title: 'IOS App: Currency Converter',
+    description:
+      'Another School Project, group work. Written in XCode with Swift. Converts USD and GBP into EUR and the other way around.',
+    image: './minigoogle.gif',
+    link: '',
   },
 ]
 
