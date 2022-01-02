@@ -16,16 +16,13 @@ export default function Intro() {
               this page, thanks for stopping by!
             </p>
             <span className="flex text-5xl gap-4">
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/to-uyen-nguyen-0b6b30195/"
-              >
+              <a target="_blank" href="mailto:to.un.thi@gmail.com">
                 <AiOutlineMail />
               </a>
               <a target="_blank" href="https://github.com/pandanmochi">
                 <AiFillGithub />
               </a>
-              <a href="mailto:to.un.thi@gmail.com">
+              <a href="https://www.linkedin.com/in/to-uyen-nguyen-0b6b30195/">
                 <AiOutlineLinkedin />
               </a>
             </span>
