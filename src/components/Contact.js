@@ -31,11 +31,13 @@ export default function Contact() {
     >
       <h1 className="text-5xl text-center">Contact me!</h1>
       <form
-        data-netlify="true"
         name="contact"
+        data-netlify="true"
+        method="POST"
         onSubmit={handleSubmit}
         className="flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
       >
+        <input type="hidden" name="form-name" value="contactForm" />
         <div className="relative mb-4">
           <label htmlFor="name" className="">
             Name
@@ -44,6 +46,7 @@ export default function Contact() {
             type="text"
             id="name"
             name="name"
+            value={name}
             className="w-full bg-pastel-rose rounded border-4 border-dark-blue py-1 px-3"
             onChange={(e) => setName(e.target.value)}
           />
@@ -56,6 +59,7 @@ export default function Contact() {
             type="email"
             id="email"
             name="email"
+            value={email}
             className="w-full bg-pastel-rose rounded border-4 border-dark-blue py-1 px-3"
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -67,6 +71,7 @@ export default function Contact() {
           <textarea
             id="message"
             name="message"
+            value={message}
             className="w-full bg-pastel-rose rounded border-4 h-32 py-1 px-3 resize-none"
             onChange={(e) => setMessage(e.target.value)}
           />
