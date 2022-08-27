@@ -30,7 +30,7 @@ export default function About() {
         <article className="lg:w-5/12 px-10 lg:px-0">
           <h2 className="text-4xl my-9 text-center lg:text-justify">Work</h2>
           <div className="mb-8 xl:h-60">
-            <p>
+            <p className="mb-5">
               In September 2020, I have gained new insights into technologies
               such as Git, Docker and content management systems like Wordpress
               and Shopware while working as a freelancing student.
