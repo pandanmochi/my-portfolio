@@ -38,8 +38,8 @@ export const schoolProjects = [
 
 export const skills = [
   {
-    name: 'Java',
-    icon: Si.SiJava,
+    name: 'React',
+    icon: Si.SiReact,
   },
   {
     name: 'JavaScript',
@@ -50,12 +50,12 @@ export const skills = [
     icon: Si.SiSwift,
   },
   {
-    name: 'Unity',
-    icon: Si.SiUnity,
+    name: 'Java',
+    icon: Si.SiJava,
   },
   {
-    name: 'React',
-    icon: Si.SiReact,
+    name: 'Unity',
+    icon: Si.SiUnity,
   },
   {
     name: 'Autodesk Maya',

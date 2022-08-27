@@ -12,7 +12,7 @@ export default function About() {
           <h2 className="text-4xl my-9 text-center lg:text-justify">Student</h2>
           <div className="mb-8 xl:h-60">
             <p className="mb-5">
-              I&apos;m currently studying my fourth term of International Media
+              I&apos;m currently studying my fifth term of International Media
               and Computer Science at the University of Applied Sciences - HTW
               in Berlin.
             </p>
@@ -30,17 +30,17 @@ export default function About() {
         <article className="lg:w-5/12 px-10 lg:px-0">
           <h2 className="text-4xl my-9 text-center lg:text-justify">Work</h2>
           <div className="mb-8 xl:h-60">
-            <p className="mb-5">
-              After learning the basics of Web Development in my first term, I
-              decided to get a student job to gather more experience in my
-              working field.
+            <p>
+              In September 2020, I have gained new insights into technologies
+              such as Git, Docker and content management systems like Wordpress
+              and Shopware while working as a freelancing student.
             </p>
             <p>
-              Since September 2020, I have gained new insights into many new
-              technologies such as Git, Docker and content management systems
-              like Wordpress and Shopware. I also learned about the deployment
-              process in development and additionally had the opportunity to
-              practise my webtech knowledge.
+              During my internship at a Mobile Fintech company, I worked with
+              React Native to help maintain the Design System of their mobile
+              application. This included rewriting existing components or adding
+              new ones, bugfixing as well as deployment and testing with the
+              help of CI/CD.
             </p>
           </div>
           <div>
