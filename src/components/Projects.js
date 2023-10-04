@@ -9,7 +9,7 @@ export default function Projects() {
           <div className="flex flex-col w-full mb-10">
             <h1 className="text-5xl mb-6 text-center text-white">Projects</h1>
             <p className="mx-auto text-2xl text-golden-yellow">
-              Some of my free time projects
+              Some of my school and free time projects
             </p>
             <p className="lg:hidden mt-5 mx-auto text-white">
               Hold to get information; Tap to visit the link
@@ -36,7 +36,6 @@ export default function Projects() {
               </a>
             ))}
           </div>
-          
         </div>
       </section>
     </div>

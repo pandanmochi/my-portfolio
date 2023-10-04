@@ -2,9 +2,16 @@ import * as Si from 'react-icons/si'
 
 export const projects = [
   {
+    title: 'Data Synthesizer',
+    description:
+      "For my Bachelor thesis I developed a data synthesizer for generating single tabular data. To do this, I have built a Bayesian network of the statistical attributes of the table's columns and their codependencies. New data was then generated from this network by sampling values for each node, taking into account the distribution of its associated node(s).",
+    image: './cockroach_eating.gif',
+    link: 'https://github.com/pandanmochi/UDDataSynthesis',
+  },
+  {
     title: 'This Portfolio Website',
     description:
-      'In my second term, I initially wrote this website in pure HTML and CSS. Now that I gathered a little more experience, I migrated the code into React and Tailwind. The illustrations are drawn by me.',
+      'In my second term, I initially wrote this website in pure HTML and CSS. Later I migrated the code into React and Tailwind. The illustrations are drawn by me.',
     image: './portfolio.gif',
     link: 'https://github.com/pandanmochi/my-portfolio',
   },
@@ -46,20 +53,20 @@ export const skills = [
     icon: Si.SiJavascript,
   },
   {
-    name: 'Swift',
-    icon: Si.SiSwift,
+    name: 'Python',
+    icon: Si.SiPython,
+  },
+  {
+    name: 'Pandas',
+    icon: Si.SiPandas,
   },
   {
     name: 'Java',
     icon: Si.SiJava,
   },
   {
-    name: 'Unity',
-    icon: Si.SiUnity,
-  },
-  {
-    name: 'Autodesk Maya',
-    icon: Si.SiAutodesk,
+    name: 'Scala',
+    icon: Si.SiScala,
   },
   {
     name: 'Adobe Photoshop',

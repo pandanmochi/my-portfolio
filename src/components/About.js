@@ -12,28 +12,30 @@ export default function About() {
           <h2 className="text-4xl my-9 text-center lg:text-justify">Student</h2>
           <div className="mb-8 xl:h-60">
             <p className="mb-5">
-              I&apos;m currently studying my fifth term of International Media
-              and Computer Science at the University of Applied Sciences - HTW
-              in Berlin.
+              I study International Media and Computer Science at the University
+              of Applied Sciences - HTW in Berlin and already submitted my
+              thesis. That means I will soon graduate, yay.
             </p>
             <p>
-              The study program offers a balanced combination of theoretical and
-              practical knowledge; So far I had many insights into areas of
-              Digital Computing, Web-, App- and Game Development.
+              The study program offered a balanced combination of theoretical
+              and practical knowledge, giving me insights into areas of Digital
+              Computing, Web-, App- and Game Development as well as Machine
+              Learning and Data Engineering.
             </p>
           </div>
           <div>
             <img className="w-2/5 mb-8 mx-auto" src="working.png" />
-            <p className="text-center">Please free me from online lesson</p>
+            <p className="text-center">I don't really like online lesson</p>
           </div>
         </article>
         <article className="lg:w-5/12 px-10 lg:px-0">
           <h2 className="text-4xl my-9 text-center lg:text-justify">Work</h2>
           <div className="mb-8 xl:h-60">
             <p className="mb-5">
-              In September 2020, I have gained new insights into technologies
-              such as Git, Docker and content management systems like Wordpress
-              and Shopware while working as a freelancing student.
+              Since September 2020, I have gained new insights into technologies
+              such as HTML/CSS and Javascript in combination with React and
+              headless Content Management Systems (Sanity, Directus) during my
+              time as an IT working student.
             </p>
             <p>
               During my internship at a Mobile Fintech company, I worked with
