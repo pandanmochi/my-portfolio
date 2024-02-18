@@ -12,13 +12,13 @@ export default function About() {
           <h2 className="text-4xl my-9 text-center lg:text-justify">Student</h2>
           <div className="mb-8 xl:h-60">
             <p className="mb-5">
-              I study International Media and Computer Science at the University
-              of Applied Sciences - HTW in Berlin and already submitted my
-              thesis. That means I will soon graduate, yay.
+              I am studying International Media and Computer Science (M) at the
+              University of Applied Sciences - HTW Berlin. I graduated from the
+              same Bachelor's course in 2023.
             </p>
             <p>
-              The study program offered a balanced combination of theoretical
-              and practical knowledge, giving me insights into areas of Digital
+              The study program offers a balanced combination of theoretical and
+              practical knowledge, giving me insights into areas of Digital
               Computing, Web-, App- and Game Development as well as Machine
               Learning and Data Engineering.
             </p>
